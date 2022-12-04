@@ -1,16 +1,21 @@
 Package: PSAWR
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: Pushshift.io API Wrapper for Reddit Submission and Comment Search
+Version: 0.1.0.9000
+Authors@R: 
+    person(given = "David",
+           family = "Schoch",
+           role = c("aut", "cre"),
+           email = "david@schochastics.net",
+           comment = c(ORCID = "0000-0003-2952-4812"))
+Description: Connects to the API of pushshift.io to search for reddit comments and submissions.
+URL: https://github.com/schochastics/PSAWR/
+BugReports: https://github.com/schochastics/PSAWR/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
-    R (>= 2.10)
+    R (>= 3.6)
 Imports: 
     dplyr,
     httr,
