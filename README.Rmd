@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# PSAWR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+`PSAWR` is a **P**ush**s**ift.io **A**PI **W**rapper written in **R** for comment/submission search
+for Reddit.
+
+## Installation
+
+You can install the development version of PSAWR like so:
+
+``` r
+devtools::install_github("schochastics/PSAWR")
+```
+
