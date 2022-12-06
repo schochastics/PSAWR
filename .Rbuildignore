@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^\.httr-oauth$
 ^data-raw$
+^\.github$

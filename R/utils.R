@@ -1,4 +1,4 @@
-make_get_request <- function(path,params,FUN,verbose = verbose){
+make_get_request <- function(path,params,FUN,verbose = verbose,parse_date = TRUE){
   url <- httr::parse_url("")
   url$hostname <- "api.pushshift.io"
   url$scheme <- "https"
@@ -17,6 +17,7 @@ make_get_request <- function(path,params,FUN,verbose = verbose){
   nobj <- 0
   while(i<=pages | nobj<n){
     resp <- httr::GET(httr::modify_url(url,path = path),query=params)
+    Sys.sleep(0.5) #ratelimit 120 requests per minute
     tmp <- httr::content(resp)$data
     output <- c(output,tmp)
     params[[pager]] <- tmp[[length(tmp)]][["created_utc"]]
@@ -29,9 +30,22 @@ make_get_request <- function(path,params,FUN,verbose = verbose){
   if (isTRUE(verbose)) {
     cat("\n")
   }
-  FUN(output)[1:n,]
+  result <- FUN(output)[1:n,]
+  if(isTRUE(parse_date)){
+    result[["created_utc"]] <- as.POSIXct(result[["created_utc"]], origin = "1970-01-01")
+  }
+  result
 }
 
+#' convert date to epoch time
+#'
+#' @param date date to be coverted
+#'
+#' @return epoch time as integer
+#' @export
+#'
+#' @examples
+#' to_epoch("2022-12-01")
 to_epoch <- function(date){
   as.integer(as.POSIXct(date))
 }

@@ -2,3 +2,4 @@
 
 export(search_comments)
 export(search_submissions)
+export(to_epoch)

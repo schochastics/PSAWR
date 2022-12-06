@@ -10,6 +10,7 @@ search_submissions(
   size = 25,
   after = NULL,
   before = NULL,
+  parse_date = TRUE,
   verbose = TRUE,
   ...
 )
@@ -25,6 +26,8 @@ search_submissions(
 
 \item{before}{integer, Restrict results to those made before this epoch time}
 
+\item{parse_date}{logical, should epoch time be converted to date? defaults to TRUE}
+
 \item{verbose}{logical, Whether to display messages}
 
 \item{...}{Further arguments passed as query parameters. See [ps_params] for all possible parameters.}
@@ -34,6 +37,9 @@ tibble of submissions
 }
 \description{
 Search Pushshift.io for Reddit submissions
+}
+\details{
+Use [to_epoch] to convert a date to epoch time
 }
 \examples{
 \dontrun{
