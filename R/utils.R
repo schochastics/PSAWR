@@ -17,7 +17,7 @@ make_get_request <- function(path,params,FUN,verbose = verbose,parse_date = TRUE
   nobj <- 0
   while(i<=pages | nobj<n){
     resp <- httr::GET(httr::modify_url(url,path = path),query=params)
-    Sys.sleep(0.5) #ratelimit 120 requests per minute
+    Sys.sleep(0.6) #ratelimit 100 requests per minute
     tmp <- httr::content(resp)$data
     output <- c(output,tmp)
     params[[pager]] <- tmp[[length(tmp)]][["created_utc"]]
