@@ -31,7 +31,7 @@ search_comments <- function(q = "",subreddit = NULL,size = 25,after = NULL,befor
 #' @examples
 #' \dontrun{
 #' # get the last 100 submissions with the word 'dogs' in the subreddit 'r/animals'
-#' search_comments(q = "dogs", subreddit = "animals", size = 100)
+#' search_submissions(q = "dogs", subreddit = "animals", size = 100)
 #' }
 search_submissions <- function(q = "",subreddit = NULL,size = 25,after = NULL,before = NULL,parse_date = TRUE,verbose = TRUE,...){
   params <- handle_params(q = q, subreddit = subreddit,size = size, after = after, before = before,...)

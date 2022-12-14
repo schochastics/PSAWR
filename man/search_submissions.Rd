@@ -44,6 +44,6 @@ Use [to_epoch] to convert a date to epoch time
 \examples{
 \dontrun{
 # get the last 100 submissions with the word 'dogs' in the subreddit 'r/animals'
-search_comments(q = "dogs", subreddit = "animals", size = 100)
+search_submissions(q = "dogs", subreddit = "animals", size = 100)
 }
 }

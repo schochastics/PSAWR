@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/schochastics/PSAWR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/schochastics/PSAWR/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/schochastics/PSAWR/branch/main/graph/badge.svg)](https://app.codecov.io/gh/schochastics/PSAWR?branch=main)
 <!-- badges: end -->
 
 `PSAWR` is a **P**ush**s**ift.io **A**PI **W**rapper written in **R**
