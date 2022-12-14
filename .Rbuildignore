@@ -5,3 +5,4 @@
 ^\.httr-oauth$
 ^data-raw$
 ^\.github$
+^codecov\.yml$
