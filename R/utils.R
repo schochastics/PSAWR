@@ -24,7 +24,7 @@ make_get_request <- function(path,params,FUN,verbose = verbose,parse_date = TRUE
     i <- i+1
     nobj <- nobj + length(tmp)
     if (isTRUE(verbose)) {
-      cat("got",min(nobj,n),"of",n,"comments","\r")
+      cat("got",min(nobj,n),"of",n,"results","\r")
     }
   }
   if (isTRUE(verbose)) {
