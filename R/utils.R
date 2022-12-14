@@ -39,7 +39,7 @@ make_get_request <- function(path,params,FUN,verbose = verbose,parse_date = TRUE
 
 #' convert date to epoch time
 #'
-#' @param date date to be coverted
+#' @param date date to be converted
 #'
 #' @return epoch time as integer
 #' @export

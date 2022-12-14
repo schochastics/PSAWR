@@ -7,7 +7,7 @@
 to_epoch(date)
 }
 \arguments{
-\item{date}{date to be coverted}
+\item{date}{date to be converted}
 }
 \value{
 epoch time as integer
