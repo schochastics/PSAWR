@@ -6,3 +6,4 @@
 ^data-raw$
 ^\.github$
 ^codecov\.yml$
+^cran-comments\.md$

@@ -1,7 +1,7 @@
 Package: PSAWR
 Type: Package
 Title: Pushshift.io API Wrapper for Reddit Submission and Comment Search
-Version: 0.1.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "David",
            family = "Schoch",
