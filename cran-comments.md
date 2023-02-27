@@ -1,6 +1,6 @@
 ## Resubmission Initial submission 0.1.0
 
-Fixed the missing link to API in description of DESCRIPTION
+Fixed the bibentry and names in single quotes
 
 *(dontrun examples are used to not make unnecessary API calls)*
 

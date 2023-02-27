@@ -1,7 +1,7 @@
 citHeader("To cite PSAWR in publications use:")
 
-citEntry(
-  entry    = "Manual",
+bibentry(
+  bibtype  = "Manual",
   title    = {"PSAWR: Pushshift API Wrapper for Reddit Submission and Comment Search"},
   author   = {"David Schoch"},
   note     = {"R package version 0.1.0"},
