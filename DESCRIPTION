@@ -20,7 +20,7 @@ Imports:
     dplyr,
     httr,
     tibble
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Suggests: 
     covr,
     testthat (>= 3.0.0),
