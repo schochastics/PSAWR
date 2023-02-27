@@ -1,6 +1,6 @@
-## Initial submission 0.1.0
+## Resubmission Initial submission 0.1.0
 
-This is the first submission of the package
+Fixed the missing link to API in description of DESCRIPTION
 
 *(dontrun examples are used to not make unnecessary API calls)*
 

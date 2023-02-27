@@ -1,0 +1,13 @@
+citHeader("To cite PSAWR in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = {"PSAWR: Pushshift API Wrapper for Reddit Submission and Comment Search"},
+  author   = {"David Schoch"},
+  note     = {"R package version 0.1.0"},
+  year     = {"2023"},
+  url      = {"https://github.com/schochastics/PSAWR"},
+  textVersion = paste("Schoch, D., (2023) PSAWR: Pushshift API Wrapper for Reddit Submission and Comment Search. R package version 0.1.0, <https://github.com/schochastics/PSAWR>"
+
+  )
+)
