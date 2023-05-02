@@ -15,6 +15,10 @@ status](https://www.r-pkg.org/badges/version/PSAWR)](https://CRAN.R-project.org/
 `PSAWR` is a **P**ush**s**ift.io **A**PI **W**rapper written in **R**
 for comment/submission search for Reddit.
 
+**Reddit is revoking the API access of pushshift
+([message](https://www.reddit.com/r/modnews/comments/134tjpe/reddit_data_api_update_changes_to_pushshift_access/),2023-05-02)
+once this is enforced, the package will probably stop working**
+
 ## Installation
 
 You can install the development version of PSAWR like so:
