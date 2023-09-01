@@ -9,7 +9,7 @@ Authors@R:
            email = "david@schochastics.net",
            comment = c(ORCID = "0000-0003-2952-4812"))
 Description: Connects to the API of <https://pushshift.io/> to search for 'Reddit' comments and submissions.
-URL: https://github.com/schochastics/PSAWR/
+URL: https://github.com/schochastics/PSAWR/, https://schochastics.github.io/PSAWR/
 BugReports: https://github.com/schochastics/PSAWR/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
